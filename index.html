@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-
     <!-- ═══════════════════════════════════════════
          NAVEGACIÓN
     ═══════════════════════════════════════════ -->
@@ -34,32 +33,39 @@
       <section id="hero" class="section section--hero">
         <article class="hero-content">
           <p class="hero-eyebrow">Hola, soy</p>
-          <h1 class="hero-name">Juan Da Vahos</h1>
+          <h1 class="hero-name">Juan Vahos</h1>
           <p class="hero-role">
-            <span class="role-text" id="role-text">Diseñador &amp; Desarrollador</span>
+            <span class="role-text" id="role-text"
+              >Desarrollador De Software</span
+            >
           </p>
           <p class="hero-description">
-            Creo experiencias digitales que combinan diseño y código
-            para contar historias que importan.
+            Me apasiona desarrollar software que resuelva problemas reales y
+            mejore la vida de las personas, más de aquellas que aun no tienen un
+            sistema automatizado.
           </p>
           <div class="hero-cta">
             <a href="#projects" class="btn btn--primary">Ver Proyectos</a>
             <a href="#contact" class="btn btn--outline">Contáctame</a>
           </div>
-        </article>
-        <article class="hero-visual" aria-hidden="true">
-          <div class="hero-blob"></div>
-          <div class="hero-avatar">
-            <img
-              src="assets/avatar.jpg"
-              alt="Foto de Juan Da Vahos"
-              width="320"
-              height="320"
-              loading="eager"
-            />
+          <div class="hero-visual" aria-hidden="true">
+            <div class="hero-blob"></div>
+            <div class="hero-avatar">
+              <img
+                src="images/20.jpg.jpeg"
+                alt="Foto de Juan Da Vahos"
+                width="320"
+                height="320"
+                loading="eager"
+              />
+            </div>
           </div>
         </article>
-        <a href="#about" class="scroll-indicator" aria-label="Scroll hacia abajo">
+        <a
+          href="#about"
+          class="scroll-indicator"
+          aria-label="Scroll hacia abajo"
+        >
           <span class="scroll-arrow"></span>
         </a>
       </section>
@@ -76,14 +82,15 @@
           <div class="about-grid">
             <div class="about-text">
               <p>
-                Soy un creativo apasionado por la intersección entre el arte y la
-                tecnología. Me especializo en construir productos digitales que
-                no solo funcionan bien, sino que también se ven y sienten bien.
+                Soy un creativo apasionado por la intersección entre el arte y
+                la tecnología. Me especializo en construir productos digitales
+                que no solo funcionan bien, sino que también se ven y sienten
+                bien.
               </p>
               <p>
                 Con experiencia en diseño UI/UX y desarrollo front-end, trabajo
-                desde la idea inicial hasta el producto final, asegurando que cada
-                detalle tenga propósito y personalidad.
+                desde la idea inicial hasta el producto final, asegurando que
+                cada detalle tenga propósito y personalidad.
               </p>
               <a href="assets/cv.pdf" class="btn btn--primary" download>
                 Descargar CV
@@ -122,21 +129,58 @@
           </div>
 
           <!-- Filtros -->
-          <div class="project-filters" role="tablist" aria-label="Filtrar proyectos">
-            <button class="filter-btn filter-btn--active" data-filter="all" role="tab" aria-selected="true">Todos</button>
-            <button class="filter-btn" data-filter="design" role="tab" aria-selected="false">Diseño</button>
-            <button class="filter-btn" data-filter="dev" role="tab" aria-selected="false">Desarrollo</button>
-            <button class="filter-btn" data-filter="branding" role="tab" aria-selected="false">Branding</button>
+          <div
+            class="project-filters"
+            role="tablist"
+            aria-label="Filtrar proyectos"
+          >
+            <button
+              class="filter-btn filter-btn--active"
+              data-filter="all"
+              role="tab"
+              aria-selected="true"
+            >
+              Todos
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="design"
+              role="tab"
+              aria-selected="false"
+            >
+              Diseño
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="dev"
+              role="tab"
+              aria-selected="false"
+            >
+              Desarrollo
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="branding"
+              role="tab"
+              aria-selected="false"
+            >
+              Branding
+            </button>
           </div>
 
           <!-- Grid de proyectos -->
           <div class="projects-grid" id="projects-grid">
-
             <article class="project-card" data-category="dev design">
               <div class="project-card__image">
-                <img src="assets/projects/project-01.jpg" alt="Proyecto 01" loading="lazy" />
+                <img
+                  src="assets/projects/project-01.jpg"
+                  alt="Proyecto 01"
+                  loading="lazy"
+                />
                 <div class="project-card__overlay">
-                  <a href="#" class="project-link" aria-label="Ver proyecto 01">Ver Proyecto →</a>
+                  <a href="#" class="project-link" aria-label="Ver proyecto 01"
+                    >Ver Proyecto →</a
+                  >
                 </div>
               </div>
               <div class="project-card__info">
@@ -149,11 +193,20 @@
               </div>
             </article>
 
-            <article class="project-card project-card--featured" data-category="dev">
+            <article
+              class="project-card project-card--featured"
+              data-category="dev"
+            >
               <div class="project-card__image">
-                <img src="assets/projects/project-02.jpg" alt="Proyecto 02" loading="lazy" />
+                <img
+                  src="assets/projects/project-02.jpg"
+                  alt="Proyecto 02"
+                  loading="lazy"
+                />
                 <div class="project-card__overlay">
-                  <a href="#" class="project-link" aria-label="Ver proyecto 02">Ver Proyecto →</a>
+                  <a href="#" class="project-link" aria-label="Ver proyecto 02"
+                    >Ver Proyecto →</a
+                  >
                 </div>
               </div>
               <div class="project-card__info">
@@ -168,9 +221,15 @@
 
             <article class="project-card" data-category="branding design">
               <div class="project-card__image">
-                <img src="assets/projects/project-03.jpg" alt="Proyecto 03" loading="lazy" />
+                <img
+                  src="assets/projects/project-03.jpg"
+                  alt="Proyecto 03"
+                  loading="lazy"
+                />
                 <div class="project-card__overlay">
-                  <a href="#" class="project-link" aria-label="Ver proyecto 03">Ver Proyecto →</a>
+                  <a href="#" class="project-link" aria-label="Ver proyecto 03"
+                    >Ver Proyecto →</a
+                  >
                 </div>
               </div>
               <div class="project-card__info">
@@ -185,9 +244,15 @@
 
             <article class="project-card" data-category="design">
               <div class="project-card__image">
-                <img src="assets/projects/project-04.jpg" alt="Proyecto 04" loading="lazy" />
+                <img
+                  src="assets/projects/project-04.jpg"
+                  alt="Proyecto 04"
+                  loading="lazy"
+                />
                 <div class="project-card__overlay">
-                  <a href="#" class="project-link" aria-label="Ver proyecto 04">Ver Proyecto →</a>
+                  <a href="#" class="project-link" aria-label="Ver proyecto 04"
+                    >Ver Proyecto →</a
+                  >
                 </div>
               </div>
               <div class="project-card__info">
@@ -202,9 +267,15 @@
 
             <article class="project-card" data-category="branding">
               <div class="project-card__image">
-                <img src="assets/projects/project-05.jpg" alt="Proyecto 05" loading="lazy" />
+                <img
+                  src="assets/projects/project-05.jpg"
+                  alt="Proyecto 05"
+                  loading="lazy"
+                />
                 <div class="project-card__overlay">
-                  <a href="#" class="project-link" aria-label="Ver proyecto 05">Ver Proyecto →</a>
+                  <a href="#" class="project-link" aria-label="Ver proyecto 05"
+                    >Ver Proyecto →</a
+                  >
                 </div>
               </div>
               <div class="project-card__info">
@@ -219,9 +290,15 @@
 
             <article class="project-card" data-category="dev">
               <div class="project-card__image">
-                <img src="assets/projects/project-06.jpg" alt="Proyecto 06" loading="lazy" />
+                <img
+                  src="assets/projects/project-06.jpg"
+                  alt="Proyecto 06"
+                  loading="lazy"
+                />
                 <div class="project-card__overlay">
-                  <a href="#" class="project-link" aria-label="Ver proyecto 06">Ver Proyecto →</a>
+                  <a href="#" class="project-link" aria-label="Ver proyecto 06"
+                    >Ver Proyecto →</a
+                  >
                 </div>
               </div>
               <div class="project-card__info">
@@ -233,8 +310,8 @@
                 </p>
               </div>
             </article>
-
-          </div><!-- /projects-grid -->
+          </div>
+          <!-- /projects-grid -->
         </article>
       </section>
 
@@ -248,32 +325,67 @@
             <h2 class="section-title">Qué domino</h2>
           </div>
           <div class="skills-grid">
-
             <div class="skill-category">
               <h3 class="skill-category__title">Diseño</h3>
               <ul class="skill-list">
                 <li class="skill-item">
                   <span class="skill-name">Figma</span>
-                  <div class="skill-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                    <div class="skill-bar__fill" style="--skill-level: 90%"></div>
+                  <div
+                    class="skill-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="skill-bar__fill"
+                      style="--skill-level: 90%"
+                    ></div>
                   </div>
                 </li>
                 <li class="skill-item">
                   <span class="skill-name">Adobe Photoshop</span>
-                  <div class="skill-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                    <div class="skill-bar__fill" style="--skill-level: 80%"></div>
+                  <div
+                    class="skill-bar"
+                    role="progressbar"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="skill-bar__fill"
+                      style="--skill-level: 80%"
+                    ></div>
                   </div>
                 </li>
                 <li class="skill-item">
                   <span class="skill-name">Illustrator</span>
-                  <div class="skill-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                    <div class="skill-bar__fill" style="--skill-level: 75%"></div>
+                  <div
+                    class="skill-bar"
+                    role="progressbar"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="skill-bar__fill"
+                      style="--skill-level: 75%"
+                    ></div>
                   </div>
                 </li>
                 <li class="skill-item">
                   <span class="skill-name">UI / UX</span>
-                  <div class="skill-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                    <div class="skill-bar__fill" style="--skill-level: 85%"></div>
+                  <div
+                    class="skill-bar"
+                    role="progressbar"
+                    aria-valuenow="85"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="skill-bar__fill"
+                      style="--skill-level: 85%"
+                    ></div>
                   </div>
                 </li>
               </ul>
@@ -284,26 +396,62 @@
               <ul class="skill-list">
                 <li class="skill-item">
                   <span class="skill-name">HTML &amp; CSS</span>
-                  <div class="skill-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                    <div class="skill-bar__fill" style="--skill-level: 95%"></div>
+                  <div
+                    class="skill-bar"
+                    role="progressbar"
+                    aria-valuenow="95"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="skill-bar__fill"
+                      style="--skill-level: 95%"
+                    ></div>
                   </div>
                 </li>
                 <li class="skill-item">
                   <span class="skill-name">JavaScript</span>
-                  <div class="skill-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                    <div class="skill-bar__fill" style="--skill-level: 80%"></div>
+                  <div
+                    class="skill-bar"
+                    role="progressbar"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="skill-bar__fill"
+                      style="--skill-level: 80%"
+                    ></div>
                   </div>
                 </li>
                 <li class="skill-item">
                   <span class="skill-name">React</span>
-                  <div class="skill-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                    <div class="skill-bar__fill" style="--skill-level: 70%"></div>
+                  <div
+                    class="skill-bar"
+                    role="progressbar"
+                    aria-valuenow="70"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="skill-bar__fill"
+                      style="--skill-level: 70%"
+                    ></div>
                   </div>
                 </li>
                 <li class="skill-item">
                   <span class="skill-name">Git &amp; GitHub</span>
-                  <div class="skill-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                    <div class="skill-bar__fill" style="--skill-level: 85%"></div>
+                  <div
+                    class="skill-bar"
+                    role="progressbar"
+                    aria-valuenow="85"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="skill-bar__fill"
+                      style="--skill-level: 85%"
+                    ></div>
                   </div>
                 </li>
               </ul>
@@ -322,7 +470,6 @@
                 <li>Miro</li>
               </ul>
             </div>
-
           </div>
         </article>
       </section>
@@ -337,15 +484,20 @@
             <h2 class="section-title">Lo que dicen</h2>
           </div>
           <div class="testimonials-track">
-
             <blockquote class="testimonial-card">
               <p class="testimonial-card__text">
-                "Juan tiene una habilidad única para entender las necesidades del cliente
-                y traducirlas en diseños hermosos y funcionales. Fue un placer trabajar
-                con él."
+                "Juan tiene una habilidad única para entender las necesidades
+                del cliente y traducirlas en diseños hermosos y funcionales. Fue
+                un placer trabajar con él."
               </p>
               <footer class="testimonial-card__author">
-                <img src="assets/clients/client-01.jpg" alt="Nombre Cliente" width="48" height="48" loading="lazy" />
+                <img
+                  src="assets/clients/client-01.jpg"
+                  alt="Nombre Cliente"
+                  width="48"
+                  height="48"
+                  loading="lazy"
+                />
                 <div>
                   <cite class="author-name">Nombre Apellido</cite>
                   <span class="author-role">CEO, Empresa X</span>
@@ -355,33 +507,47 @@
 
             <blockquote class="testimonial-card">
               <p class="testimonial-card__text">
-                "Entrega resultados de alta calidad en los tiempos acordados. Su atención
-                al detalle y su pasión por el diseño se notan en cada pixel."
+                "Entrega resultados de alta calidad en los tiempos acordados. Su
+                atención al detalle y su pasión por el diseño se notan en cada
+                pixel."
               </p>
               <footer class="testimonial-card__author">
-                <img src="assets/clients/client-02.jpg" alt="Nombre Cliente 2" width="48" height="48" loading="lazy" />
+                <img
+                  src="assets/clients/client-02.jpg"
+                  alt="Nombre Cliente 2"
+                  width="48"
+                  height="48"
+                  loading="lazy"
+                />
                 <div>
                   <cite class="author-name">Nombre Apellido</cite>
-                  <span class="author-role">Directora de Marketing, Empresa Y</span>
+                  <span class="author-role"
+                    >Directora de Marketing, Empresa Y</span
+                  >
                 </div>
               </footer>
             </blockquote>
 
             <blockquote class="testimonial-card">
               <p class="testimonial-card__text">
-                "Trabajar con Juan fue una experiencia excepcional. Entiende tanto el
-                lado técnico como el creativo, lo que lo hace muy valioso en cualquier
-                proyecto."
+                "Trabajar con Juan fue una experiencia excepcional. Entiende
+                tanto el lado técnico como el creativo, lo que lo hace muy
+                valioso en cualquier proyecto."
               </p>
               <footer class="testimonial-card__author">
-                <img src="assets/clients/client-03.jpg" alt="Nombre Cliente 3" width="48" height="48" loading="lazy" />
+                <img
+                  src="assets/clients/client-03.jpg"
+                  alt="Nombre Cliente 3"
+                  width="48"
+                  height="48"
+                  loading="lazy"
+                />
                 <div>
                   <cite class="author-name">Nombre Apellido</cite>
                   <span class="author-role">Product Manager, Empresa Z</span>
                 </div>
               </footer>
             </blockquote>
-
           </div>
         </article>
       </section>
@@ -396,28 +562,48 @@
             <h2 class="section-title">Hablemos</h2>
           </div>
           <div class="contact-grid">
-
             <div class="contact-info">
               <p class="contact-intro">
-                ¿Tienes un proyecto en mente o quieres charlar sobre diseño y código?
-                Escríbeme, siempre estoy abierto a nuevas ideas y colaboraciones.
+                ¿Tienes un proyecto en mente o quieres charlar sobre diseño y
+                código? Escríbeme, siempre estoy abierto a nuevas ideas y
+                colaboraciones.
               </p>
               <ul class="contact-links">
                 <li>
-                  <a href="mailto:hola@juandavahos.com" class="contact-link" id="contact-email">
+                  <a
+                    href="mailto:hola@juandavahos.com"
+                    class="contact-link"
+                    id="contact-email"
+                  >
                     <span class="contact-link__icon" aria-hidden="true">✉</span>
                     hola@juandavahos.com
                   </a>
                 </li>
                 <li>
-                  <a href="https://linkedin.com/in/juandavahos" class="contact-link" target="_blank" rel="noopener noreferrer" id="contact-linkedin">
-                    <span class="contact-link__icon" aria-hidden="true">in</span>
+                  <a
+                    href="https://linkedin.com/in/juandavahos"
+                    class="contact-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    id="contact-linkedin"
+                  >
+                    <span class="contact-link__icon" aria-hidden="true"
+                      >in</span
+                    >
                     linkedin.com/in/juandavahos
                   </a>
                 </li>
                 <li>
-                  <a href="https://github.com/JuanDaVahos" class="contact-link" target="_blank" rel="noopener noreferrer" id="contact-github">
-                    <span class="contact-link__icon" aria-hidden="true">gh</span>
+                  <a
+                    href="https://github.com/JuanDaVahos"
+                    class="contact-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    id="contact-github"
+                  >
+                    <span class="contact-link__icon" aria-hidden="true"
+                      >gh</span
+                    >
                     github.com/JuanDaVahos
                   </a>
                 </li>
@@ -466,16 +652,23 @@
                   required
                 ></textarea>
               </div>
-              <button type="submit" class="btn btn--primary btn--full" id="form-submit">
+              <button
+                type="submit"
+                class="btn btn--primary btn--full"
+                id="form-submit"
+              >
                 Enviar mensaje
               </button>
-              <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+              <p
+                class="form-status"
+                id="form-status"
+                role="status"
+                aria-live="polite"
+              ></p>
             </form>
-
           </div>
         </article>
       </section>
-
     </main>
 
     <!-- ═══════════════════════════════════════════
@@ -483,12 +676,38 @@
     ═══════════════════════════════════════════ -->
     <footer id="site-footer" class="site-footer">
       <div class="container footer-inner">
-        <p class="footer-copy">&copy; 2026 Juan Da Vahos — Todos los derechos reservados.</p>
+        <p class="footer-copy">
+          &copy; 2026 Juan Da Vahos — Todos los derechos reservados.
+        </p>
         <nav class="footer-social" aria-label="Redes sociales">
-          <a href="https://github.com/JuanDaVahos" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
-          <a href="https://linkedin.com/in/juandavahos" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
-          <a href="https://behance.net/juandavahos" target="_blank" rel="noopener noreferrer" aria-label="Behance">Behance</a>
-          <a href="https://dribbble.com/juandavahos" target="_blank" rel="noopener noreferrer" aria-label="Dribbble">Dribbble</a>
+          <a
+            href="https://github.com/JuanDaVahos"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+            >GitHub</a
+          >
+          <a
+            href="https://linkedin.com/in/juandavahos"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+            >LinkedIn</a
+          >
+          <a
+            href="https://behance.net/juandavahos"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Behance"
+            >Behance</a
+          >
+          <a
+            href="https://dribbble.com/juandavahos"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Dribbble"
+            >Dribbble</a
+          >
         </nav>
         <a href="#hero" class="back-to-top" aria-label="Volver al inicio">↑</a>
       </div>
@@ -496,6 +715,5 @@
 
     <!-- Scripts -->
     <script src="script.js"></script>
-
   </body>
 </html>
